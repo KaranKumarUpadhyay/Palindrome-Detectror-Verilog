@@ -1,13 +1,13 @@
 # Palindrome-Detectror-Verilog
-PROJJECT TITLE :
+PROJJECT TITLE _________
 
 Palindrome Detector using Verilog HDL
 
-OBJECTIVE : 
+OBJECTIVE _______
 
 The aim of this project is to design a digital circuit that detects whether a sequence of 4 consecutive input bits forms a palindrome.
 
-PROBLEM STATEMENT : 
+PROBLEM STATEMENT _______
 
 A palindrome is a sequence that reads the same forward and backward. In this project, the system continuously receives a serial input bit (x) and checks whether the last four bits form a palindrome.
 
@@ -18,7 +18,7 @@ EXAMPLES OF VALID PALINDROMES :
 1111
 0000
 
-APPROACH :
+APPROACH __________
 
 The design uses a combination of a finite state machine (FSM) and a shift register:
 
@@ -30,7 +30,7 @@ Second bit equals third bit
 
 If both conditions are satisfied, the output y becomes 1.
 
-INPUTS AND OUTPUTS :
+INPUTS AND OUTPUTS _______
 
 clk : Clock signal
 reset : Asynchronous reset
